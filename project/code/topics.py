@@ -1,0 +1,25 @@
+
+# 界面切换主题
+LOAD_MAIN_VIEW = 'load_main_view'  # {"view_name": <主视图tile视图名称>}
+LOAD_ADD_ALARMS_VIEW = 'load_add_alarms_view'  # {}
+LOAD_LIST_ALARMS_VIEW = 'load_list_alarms_view'  # {'alarms': [{'minute': 42, 'weekday': (3,), 'hour': 16}, ...]}
+LOAD_MENU_LIST_VIEW = 'load_menu_list_view'  # {}
+LOAD_INCOMING_CALL_VIEW = 'load_incoming_call_view'  # {"phone_number": <手机号>}
+LOAD_DIALING_VIEW = 'load_dialing_view'  # {}
+
+# 功能主题
+FUNC_VOLTE_CONNECTED = 'func_volte_connected'  # {}
+FUNC_ALARM_CLOCK_RUNNING = 'clock_running'
+
+# 数据更新主题
+
+UPDATE_BATTERY_TOPIC = 'UPDATE_BATTERY_TOPIC'
+UPDATE_STEP_TOPIC = 'UPDATE_STEP_TOPIC'
+UPDATE_HEART_RATE_TOPIC = 'UPDATE_HEART_RATE_TOPIC'
+UPDATE_KCAL_TOPIC = 'UPDATE_KCAL_TOPIC'
+UPDATE_SLEEP_TIME_TOPIC = 'UPDATE_SLEEP_TIME_TOPIC'
+UPDATE_RECENT_SLEEP_TIME_TOPIC = 'UPDATE_RECENT_SLEEP_TIME_TOPIC'
+UPDATE_UV_INDEX_TOPIC = 'UPDATE_UV_INDEX_TOPIC'
+UPDATE_DATETIME_TOPIC = 'UPDATE_DATETIME_TOPIC'
+UPDATE_SPO2_TOPIC = 'UPDATE_SPO2_TOPIC'
+UPDATE_SPO2_REMAINING_TOPIC = 'UPDATE_SPO2_REMAINING_TOPIC'
